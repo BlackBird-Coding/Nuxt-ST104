@@ -27,6 +27,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+
+    ['@nuxtjs/pwa', { icon: true }],
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
