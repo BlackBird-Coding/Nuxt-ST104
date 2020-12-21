@@ -27,6 +27,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+
+    ['@nuxtjs/pwa', { icon: true }],
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -34,7 +36,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    // ['@nuxtjs/pwa', { icon: true }],
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
